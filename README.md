@@ -4,7 +4,7 @@
 
 #### Assignment date: 25.04.2023
 
-Database:
+#### Database description:
 
 There is a table of analyses Analysis:
   - an_id - analysis ID;
@@ -13,25 +13,17 @@ There is a table of analyses Analysis:
   - an_price - retail price of the analysis;
   - an_group - analysis group.
 
-
 There is a table of analysis groups Groups:
-
-● gr_id - group ID;
-
-● gr_name - group name;
-
-● gr_temp - storage temperature.
-
+  - gr_id - group ID;
+  - gr_name - group name;
+  - gr_temp - storage temperature.
 
 There is a table of orders Orders:
+  - ord_id - order ID;
+  - ord_datetime - date and time of the order;
+  - ord_an - analysis ID.
 
-● ord_id - order ID;
-
-● ord_datetime - date and time of the order;
-
-● ord_an - analysis ID.
-
-Tasks:
+#### Tasks:
 
 1. Output the name and price for all analyses that were sold on Feb. 5 2020 and all of the following week.
 

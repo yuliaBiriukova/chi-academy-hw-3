@@ -7,16 +7,11 @@
 Database:
 
 There is a table of analyses Analysis:
-
-● an_id - analysis ID;
-
-● an_name - name of the analysis;
-
-● an_cost - cost price of the analysis;
-
-● an_price - retail price of the analysis;
-
-● an_group - analysis group.
+  - an_id - analysis ID;
+  - an_name - name of the analysis;
+  - an_cost - cost price of the analysis;
+  - an_price - retail price of the analysis;
+  - an_group - analysis group.
 
 
 There is a table of analysis groups Groups:

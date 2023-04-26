@@ -40,5 +40,9 @@ Task 1 executed in task1.sql
 
 Task 2 executed in task2.sql
 
+#### Results
+
+Screenshots of created tables and results of SELECT queries are kept in folder Results. 
+
 
 
